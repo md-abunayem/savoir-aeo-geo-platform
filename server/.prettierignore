@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+drizzle
+package-lock.json
+README.md
+docs/setup-history.md

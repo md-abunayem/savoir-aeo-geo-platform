@@ -1,0 +1,248 @@
+
+# ============================================================
+# AEO/GEO OPTIMIZATION PLATFORM
+# Root .gitignore
+#
+# Structure:
+# Savoir/
+# ├── client/   (Next.js + React + TypeScript)
+# ├── server/   (Express.js + TypeScript + Drizzle)
+# └── .gitignore
+# ============================================================
+
+
+# ============================================================
+# 1. DEPENDENCIES
+# ============================================================
+
+node_modules/
+**/node_modules/
+
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+
+# ============================================================
+# 2. ENVIRONMENT VARIABLES & SECRETS
+# ============================================================
+
+# Ignore environment files at any level
+
+# Allow safe environment templates
+!**/.env.example
+!**/.env.*.example
+
+# Local credentials and secrets
+**/secrets/
+**/.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local npm authentication configuration
+.npmrc
+**/.npmrc
+!**/.npmrc.example
+
+
+# ============================================================
+# 3. NEXT.JS / REACT / FRONTEND
+# ============================================================
+
+**/.next/
+**/out/
+**/.nuxt/
+**/.output/
+
+# Next.js deployment
+**/.vercel/
+**/.netlify/
+
+# Vite / other frontend build artifacts
+**/.vite/
+**/.vite-inspect/
+
+
+# ============================================================
+# 4. TYPESCRIPT / NODE.JS BUILD OUTPUT
+# ============================================================
+
+**/dist/
+**/build/
+**/coverage/
+
+*.tsbuildinfo
+next-env.d.ts
+
+# Cache
+**/.cache/
+**/.turbo/
+**/.parcel-cache/
+**/.eslintcache
+
+
+# ============================================================
+# 5. LOG FILES
+# ============================================================
+
+*.log
+logs/
+**/logs/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ============================================================
+# 6. DATABASE LOCAL FILES
+# ============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local database backups
+*.dump
+*.backup
+*.sql.gz
+
+# Local Docker persistent data directories
+**/postgres_data/
+**/redis_data/
+**/minio_data/
+**/silo_data/
+
+# Temporary local data
+**/.local-data/
+
+
+# ============================================================
+# 7. OBJECT STORAGE & UPLOADED FILES
+# ============================================================
+
+# Runtime uploads and temporary files
+**/uploads/
+**/temp/
+**/tmp/
+
+# Locally persisted storage data
+**/storage_data/
+**/object-storage-data/
+
+
+# ============================================================
+# 8. TESTING
+# ============================================================
+
+**/test-results/
+**/playwright-report/
+**/.nyc_output/
+**/blob-report/
+**/storybook-static/
+
+
+# ============================================================
+# 9. DOCKER LOCAL OVERRIDES
+# ============================================================
+
+# Keep compose.yaml and Dockerfiles tracked
+# Ignore machine-specific overrides
+docker-compose.override.yml
+compose.override.yml
+
+# Local Docker environment files
+*.docker.env
+
+
+# ============================================================
+# 10. IDE / EDITOR FILES
+# ============================================================
+
+# VS Code local settings
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Editor temporary files
+*.bak
+*.orig
+*.rej
+
+
+# ============================================================
+# 11. OPERATING SYSTEM FILES
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.Trash-*
+.nfs*
+
+
+# ============================================================
+# 12. MISCELLANEOUS
+# ============================================================
+
+*.pid
+*.pid.lock
+*.seed
+
+# Temporary archives
+*.tmp
+*.temp
+
+
+# ============================================================
+# IMPORTANT: FILES THAT MUST BE COMMITTED
+# ============================================================
+
+# Do not ignore:
+#
+# client/package.json
+# client/package-lock.json
+# server/package.json
+# server/package-lock.json
+#
+# server/compose.yaml
+# server/drizzle.config.ts
+# server/drizzle/
+# server/src/db/schema.ts
+#
+# .env.example
+# client/.env.example
+# server/.env.example
+#
+# tsconfig.json
+# Dockerfile
+# README.md
+# .github/workflows/
+#
+# Database migration files are source-controlled.
+# They must NOT be ignored.
+# ============================================================
+config.bat

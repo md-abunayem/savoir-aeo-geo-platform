@@ -1,0 +1,342 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793803506411,
+      "tag": "0000_numerous_the_stranger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793803712768,
+      "tag": "0001_sticky_sleeper",
+      "breakpoints": true
+    },
+    {
+      "version": "7",
+      "tag": "0002_tenant_isolation",
+      "idx": 2,
+      "breakpoints": true,
+      "when": 1793872800000
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793877219677,
+      "tag": "0003_auth_sessions",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793878422505,
+      "tag": "0004_email_outbox",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793883250626,
+      "tag": "0005_wise_strong_guy",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793935542884,
+      "tag": "0006_gigantic_night_thrasher",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793955526874,
+      "tag": "0007_hesitant_blur",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793955526875,
+      "tag": "0008_prompt_schedule_controls",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793955526876,
+      "tag": "0009_project_discovery",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1794028900000,
+      "tag": "0010_auto_verify",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1794032000000,
+      "tag": "0011_onboarding_and_oauth",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1794036000000,
+      "tag": "0012_multi_engine_adapters",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1794040000000,
+      "tag": "0013_answer_pipeline",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1794044000000,
+      "tag": "0014_visibility_analytics",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1794045000000,
+      "tag": "0015_citation_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1794046000000,
+      "tag": "0016_competitor_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1794047000000,
+      "tag": "0017_public_grader",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1794048000000,
+      "tag": "0018_technical_aeo_auditing",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1794049000000,
+      "tag": "0019_agent_experience_optimization",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1794050000000,
+      "tag": "0020_content_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1794051000000,
+      "tag": "0021_action_center",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1794052000000,
+      "tag": "0022_integrations_and_traffic",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1794053000000,
+      "tag": "0023_reporting_and_alerts",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1794054000000,
+      "tag": "0024_billing_and_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1794055000000,
+      "tag": "0025_live_monitoring_pipeline",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1794056000000,
+      "tag": "0026_technical_audit_runtime",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1794057000000,
+      "tag": "0027_self_service_projects",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1794058000000,
+      "tag": "0028_technical_audit_evidence",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1794059000000,
+      "tag": "0029_crawl_provenance",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1794060000000,
+      "tag": "0030_connection_test_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1794061000000,
+      "tag": "0031_workspace_runtime_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1794062000000,
+      "tag": "0032_prompt_creation_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1794063000000,
+      "tag": "0033_schedule_creation_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1794064000000,
+      "tag": "0034_stop_quota_retries",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1794065000000,
+      "tag": "0035_openrouter_engine",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1794066000000,
+      "tag": "0036_monitoring_request_queue",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1794067000000,
+      "tag": "0037_monitoring_failure_recovery",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1794068000000,
+      "tag": "0038_billing_runtime_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1794069000000,
+      "tag": "0039_billing_webhook_fulfillment",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1794070000000,
+      "tag": "0040_public_api_key_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1794382126909,
+      "tag": "0041_omniscient_molecule_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1794393692558,
+      "tag": "0042_prompt_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1794411428842,
+      "tag": "0043_technical_audit_workflow",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1794411428843,
+      "tag": "0044_brand_product_memory",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1794411428844,
+      "tag": "0045_customer_questions",
+      "breakpoints": true
+    },
+    {
+      "idx": 46,
+      "version": "7",
+      "when": 1794411428845,
+      "tag": "0046_content_publishing",
+      "breakpoints": true
+    },
+    {
+      "idx": 47,
+      "version": "7",
+      "when": 1794411428846,
+      "tag": "0047_performance_memory",
+      "breakpoints": true
+    }
+  ]
+}
